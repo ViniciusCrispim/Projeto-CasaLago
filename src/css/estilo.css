@@ -2,6 +2,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     max-width: 1280px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 main:after{
@@ -16,6 +17,19 @@ main:after{
     z-index: -1;
 }
 
+.conteudo-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.conteudo-logo .logo{
+    padding-top: 40px;
+    filter: invert(1);
+    font-size: 50px;
+}
+
 .conteudo{
     display: flex;
     flex-direction: column;
@@ -23,7 +37,7 @@ main:after{
     justify-content: space-evenly;
 }
 
-.informacoes .logo{
+.informacoes .titulo{
     max-width: 400px;
     filter: invert(1);
     margin-bottom: 45px;
@@ -34,6 +48,8 @@ main:after{
     font-size: 24px;
     color: #ffffff;
     line-height: 30px;
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 46%, rgba(0,0,0,0.14058123249299714) 100%);
+    border-radius: 40px;
 }
 
 .botoes-carrossel{
