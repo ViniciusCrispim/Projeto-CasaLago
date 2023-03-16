@@ -25,7 +25,8 @@ main:after{
 }
 
 .conteudo-logo .logo{
-    padding-top: 40px;
+    margin-top: 80px;
+    padding: 40px;
     filter: invert(1);
     font-size: 50px;
 }
